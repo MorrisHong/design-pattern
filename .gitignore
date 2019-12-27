@@ -1,34 +1,4 @@
-README.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+# Created by .ignore support plugin (hsz.mobi)
 ### macos,windows,linux,maven,gradle,intellij,eclipse,java template
 # Created by https://www.gitignore.io/api/java,linux,macos,maven,gradle,windows,eclipse,intellij
 # Edit at https://www.gitignore.io/?templates=java,linux,macos,maven,gradle,windows,eclipse,intellij
@@ -317,9 +287,3 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,linux,macos,maven,gradle,windows,eclipse,intellij
-.gitignore
-.mvn/
-mvnw
-mvnw.cmd
-pom.xml
-src/
