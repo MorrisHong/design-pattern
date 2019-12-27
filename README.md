@@ -1,19 +1,10 @@
-# Getting Started
+# 본 레포는 디자인패턴을 공부, 정리하기 위한 레포입니다.
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/maven-plugin/)
-* [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#production-ready)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#using-boot-devtools)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
+## 퍼사드패턴
+### 정의
+- 복잡한 과정을 간단하게 표현한다.  
+- 하위 시스템의 인터페이스 세트에 일관된 인터페이스를 제공하는 것.
+### 예
+- 세탁모드가 두가지 ( 찌든 때, 조물조물 ) 뿐인 세탁기.
+- 물의 온도, 세탁시간, 세제의 양 등등의 로직등은 인터페이스 내부에 두고, 두 가지 세탁 모드만 제공한다.
+- 사용자는 두 가지 모드 중 하나를 고르면 그만이다.
